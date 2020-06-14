@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UniversalIdentity</name>
+    </assembly>
+    <members>
+        <member name="M:UniversalIdentity.Controllers.RolesController.AddUserToRolAsync(System.String,System.String)">
+            <summary>
+            Registra un usuario a un rol especificado
+            </summary>
+            <param name="roleId">Id del rol</param>
+            <param name="userId">Id del usuario a registrar</param>        
+            <returns></returns>     
+        </member>
+        <member name="M:UniversalIdentity.Controllers.RolesController.RemoveUserToRolAsync(System.String,System.String)">
+            <summary>
+            Remueve un usuario de un rol especificado
+            </summary>
+            <param name="userId">Id del usuario a registrar</param>
+            <param name="roleName">Nombre del rol</param>
+            <returns></returns>        
+        </member>
+    </members>
+</doc>
